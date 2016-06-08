@@ -14,7 +14,7 @@
 <html>
 <head>
 	<noscript>
-      <meta http-equiv="refresh" content="<?php echo $t;?>;url=http://localhost/Work/online_quiz/s_dashboard.php" />
+      <meta http-equiv="refresh" content="<?php echo $t;?>;url=http://localhost/GitHub/Online_test/online_quiz/s_dashboard.php" />
     </noscript>
 	<title>Test || Question Paper</title>
 </head>
@@ -25,7 +25,7 @@
       setInterval(
         function(){
           if (seconds <= 1) {
-            window.location = 'http://localhost/Work/online_quiz/s_dashboard.php';
+            window.location = 'http://localhost/GitHub/Online_test/online_quiz/s_dashboard.php';
           }
           else {
             document.getElementById('seconds').innerHTML = --seconds;
